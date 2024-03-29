@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto;
+    font-weight: 300;
+    background: linear-gradient(to left, #dba3e4, #580070);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #F9FAEB; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+  
+h1 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+  
+form { 
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+} 
+  
+input[type="text"], 
+input[type="number"] { 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    outline: none; 
+} 
+  
+input[type="text"]::placeholder, 
+input[type="number"]::placeholder { 
+    color: #999; 
+} 
+  
+button { 
+    padding: 10px 20px; 
+    background-color:#9607af; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+  
+button:hover { 
+    background-color:#9607af; 
+} 
+  
+.expense-table { 
+    border: 1px solid #F9FAEB; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} 
+  
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+} 
+  
+thead th { 
+    background-color:#F9FAEB; 
+    padding: 10px; 
+    text-align: left; 
+} 
+  
+tbody td { 
+    padding: 10px; 
+    border-top: 1px solid #ddd; 
+} 
+  
+.delete-btn { 
+    color: red; 
+    cursor: pointer; 
+} 
+  
+.total-amount { 
+    padding: 10px; 
+    text-align: right; 
+    background-color:#F9FAEB; 
+}
